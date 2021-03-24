@@ -6,9 +6,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="loose.oose.fis.lab.student.manager.fxml.Login"
+            fx:controller="loose.oose.fis.lab.student.manager.controllers.LoginController"
             prefHeight="400.0" prefWidth="600.0">
 
 
@@ -37,7 +39,7 @@
 <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
 
 <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="4">
-    <Button onAction="#handleLoginButtonAction" text="Login"/>
+    <Button  text="Login"/>
 </HBox>
 
 <Text fx:id="loginMessage" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
